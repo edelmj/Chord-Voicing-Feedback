@@ -1,3 +1,8 @@
 For signal processing we needed to sort all of the inputs we get into distinct frequencies, we decided that we will use the 108 possible frequencies that are present on a piano. We are referencing these frequencies from wikipedia.
 
 Source: https://en.wikipedia.org/wiki/Piano_key_frequencies
+
+
+From the above, the team decided that we needed to cut the incoming audio file into 108 different  frequency bands in order to capture each note and it's amplitude. Below is one method we are trying to take inspiration from for frequency banding and processing.
+
+Source: https://www.mathworks.com/help/audio/ug/graphic-equalization.html;jsessionid=ab378ed3d8669eb7a770b62fcdda?s_tid=srchtitle
